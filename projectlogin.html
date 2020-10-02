@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-auth.js"></script>
+  
+    <link rel="stylesheet" type="text/css" href="projectlogin.css">
+    <script src="projectlogin.js"></script>
+   
+</head>
+
+<body>
+	
+	<div id="loginContainer">
+		<div class="form">
+
+		<h1> Sign In </h1>
+
+			<h2>Email Id</h2>
+			<img src="https://campustechnology.com/-/media/EDU/CampusTechnology/2020-images/20200318edtechteaser.jpg"  id="image" >
+            <input type="email" name="email" id="email"/>
+       
+            <h2>Password</h2>
+		    <input type="password" name="password" id="password"/>
+
+		    <button class="submit" type="button" onclick="signIn()" id="signIn"> Sign In </button>
+
+		    <p class="message"> New to the Account?<a href="projectregister.html">Register</a>
+    </p>
+     </div>
+</div>
+
+	<div id="logoutContainer">
+		<h1 id="h1">Welcome to "Abhyahas"</h1>
+		<button class="logout" type="button" onclick="signOut()" id="signOut"> sign Out </button>
+    </div>
+
+		</body>
+
+</html>
