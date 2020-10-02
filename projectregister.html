@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register </title>
+
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-auth.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="projectregister.css">
+    <script src="projectregister.js"></script>
+
+
+</head>
+
+<body>
+	
+
+	<div id="registerContainer">
+		<div class="form2">
+		
+		<h1> Register </h1>
+
+		<h2> Name </h2>
+         <input type="text" name="Name" id="Name"/> 
+        
+        <h2> College </h2>
+        <img src="https://campustechnology.com/-/media/EDU/CampusTechnology/2020-images/20200318edtechteaser.jpg"  id="image2" >     
+         <input type="text" name="College" id="College"/>
+
+         <h2> Contact Number </h2>
+         <input type="text" name="ContactNumber" id="ContactNumber"/>
+
+         <h2>Email Id</h2>
+         <input type="email" name="email" id="email"/>
+
+        <h2> Password </h2>
+		<input type="password" name="password" id="password"/>
+
+		<h2> Retype Password </h2>
+		<input type="password" name="repassword" id="password2"/>
+		
+		<button class="submit2" type="button" onclick="signUp()" id="signUp"> Register </button>
+
+         <p class="message">Already Registered? <a href="projectlogin.html">Sign In</a>
+    </p>
+
+	</div>
+</div>
+
+	<div id="logoutContainer">
+		<h1 id="h1">Welcome to "Abhyahas"</h1>
+		<button class="logout" type="button" onclick="signOut()" id="signOut"> sign Out </button>
+    </div>
+</body>
+</html>
+ 
